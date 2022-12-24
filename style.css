@@ -1,0 +1,68 @@
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("monument.jpeg");
+    background-size: cover;
+    
+}
+    
+.writen{
+    /* width: 400px;
+    height: 70px; */
+    float:inline-end;
+    margin-top: 0%;
+    
+
+}
+
+ul{
+   float:left;
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+   
+}
+
+.main{
+    background-color:rgb(178, 240, 214);
+}
+ul li{
+    list-style: none; 
+    margin-left :70px;
+    font-size:14px;
+    margin-top: 27px;
+    /* background-color:black;  */
+
+
+}
+.button{
+    margin-left: 30px;
+    margin-right: 25px;
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold; 
+    transition:0.4s ease-in-out ;
+}
+.logo{
+    position :absolute; 
+    /* width: 178px; ; */
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 10px;
+    
+}
+.logo h2{
+    font-size :45px;
+    color:rgb(182, 16, 66) ; 
+    align-items: center;
+
+}
+.logo h1{
+    font-size :60px;
+    color:rgb(190, 21, 49) ; 
+
+}
+
+

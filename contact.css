@@ -1,0 +1,29 @@
+body{
+    
+    background-image: url("kl2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.head{ 
+    color: white;
+    margin-left:33%;
+    font: bolder;
+    font-size: 50px;
+    
+    
+}
+.contact_text{
+    margin-left: 7%;
+    list-style-type:none;
+    font: bold;
+    color: white;
+    
+}
+.contact_image{
+    margin-top:-350px ;
+    margin-left: 30%;
+    position: absolute;
+}
